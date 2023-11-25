@@ -14,10 +14,14 @@ export default function Home() {
   }, []);
 
   const click=async ()=>{
-    const data  = {url: "https://neshan.org/maps", text: "text", title: 'title'} ;
+    const data  = {url: `https://www.waze.com/ul?ll=${[130,5545,57.547788]}&navigate=yes`, text: "text", title: 'title'} ;
     // const shareData = {
     //   url: item,
     // };
+
+    
+    // window.open(wazeUrl, '_blank');
+
     try {
       await navigator.share(data);
     }
