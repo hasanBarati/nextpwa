@@ -16,7 +16,7 @@ export default function Home() {
   const click=async ()=>{
 
 
-    https://www.google.com/maps/place/{lat},{lug}
+
     const url = `https://www.google.com/maps/place/${35.84647388697808},${50.95969676971436}`
     // const url = `https://nshn.ir/maps/place/${35.84647388697808},${50.95969676971436}`
     window.open(url)
