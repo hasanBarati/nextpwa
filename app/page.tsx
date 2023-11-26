@@ -38,7 +38,7 @@ export default function Home() {
   }
   return(
     <>
-        <h1>Hello, Next.js! changed th title again</h1>
+        <h1>Hello, Next.js! changed th title again2</h1>
         <button onClick={click}>click</button>
         <a href="geo:35.84647388697808,50.95969676971436" target="_blank">Click here for map</a>
     </>
