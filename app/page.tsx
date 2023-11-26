@@ -16,8 +16,9 @@ export default function Home() {
   const click=async ()=>{
 
 
-
-    const url = `https://nshn.ir/maps/place/${35.84647388697808},${50.95969676971436}`
+    https://www.google.com/maps/place/{lat},{lug}
+    const url = `https://www.google.com/maps/place/${35.84647388697808},${50.95969676971436}`
+    // const url = `https://nshn.ir/maps/place/${35.84647388697808},${50.95969676971436}`
     window.open(url)
 
     // const data  = {url: `https://www.waze.com/ul?ll=${[130,5545,57.547788]}&navigate=yes`, text: "text", title: 'title'} ;
@@ -37,7 +38,7 @@ export default function Home() {
   }
   return(
     <>
-        <h1>Hello, Next.js! changed th title</h1>
+        <h1>Hello, Next.js! changed th title again</h1>
         <button onClick={click}>click</button>
     </>
 
